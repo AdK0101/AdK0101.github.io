@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+html {
+    background-color: white;
+    color: black;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation ul {
+    margin: 0;
+}
+
+.navigation li {
+    display: inline;
+}
+
+.navigation a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+.navigation a:hover{
+    background-color: rgba(255, 255, 255, .3);    
+}
+
+.main-navigation {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+
+.main-navigation li {
+    padding: 0 5%;
+}
+
+
+.nav-button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+.header {
+    background-color: (0, 0, 0, .5);
+    background-image: url(https://thumbs.dreamstime.com/b/panorama-view-universe-space-shot-milky-way-galaxy-stars-night-sky-background-contains-our-solar-system-101800169.jpg);
+    background-size: cover;
+    background-blend-mode: multiply;
+    padding-bottom: 2-px;
+}
+
+.title-name {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: Georgia;
+    font-weight: normal;
+    color: white;
+}
+
+.footer-text {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: Arial;
+    font-weight: normal;
+    color: white;
+}
+
+.title-name-large {
+    font-size: 8em;
+}
+
+.content-section {
+    margin: 1em;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.section-header {
+    font-family: Times;
+    font-weight: normal;
+    text-align: center;
+    color: Grey;
+    font-size: 2.5em;
+}
+
+.c-and-p {
+    float: left;
+    height: 200;
+    margin: 10px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-footer {
+    background-color: LightGreen;
+    color: Grey;
+    padding: .25em 0;
+    display: flex;
+    flex-grow: 1;
+    justify-content:center;
+    align-items:center;
+}
